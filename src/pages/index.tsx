@@ -13,14 +13,15 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, Welcome to Binary Mindscapes<span className="fancy">.</span>
+            Omuamua<span className="fancy">.</span>
           </h1>
-          <span className="handle">Navigating Bits of Space and Bytes of Mind, one day at a time</span>
+          <span className="handle">Scouting my inner monologues, learnings & musings. One thought at a time. ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </span>
           <h2>A blog by {' '}
 						<a href="https://github.com/chinmaychahar">
 							Chinmay
 						</a><span className="fancy">.</span>
           </h2>
+          <SocialList />
         </div>
       </div>
       <style jsx>{`
@@ -34,10 +35,10 @@ export default function Index() {
         h1 {
           font-size: 2.5rem;
           margin: 0;
-          font-weight: 500;
+          font-weight: 800;
         }
         h2 {
-          font-size: 1.75rem;
+          font-size: 1rem;
           font-weight: 400;
           line-height: 1.25;
         }
